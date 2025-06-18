@@ -43,6 +43,7 @@ jobs:
           unityVersion: 6000.0.40f1
           projectPath: .
           targetPlatform: WebGL
+          customImage: unityci/editor:ubuntu-6000.0.40f1-webgl-1
 
       # Output
       - name: Upload build
